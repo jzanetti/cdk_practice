@@ -1,0 +1,28 @@
+{
+    "python.analysis.extraPaths": [
+        "/home/szhang/Github/cdk_practice/first_cdk"
+    ],
+    "python.languageServer": "Pylance",
+    "terminal.integrated.inheritEnv": true,
+    "remote.SSH.connectTimeout": 120,
+    "remote.SSH.remoteServerListenOnSocket": true,
+    "remote.SSH.useLocalServer": true,
+    "python.logging.level": "info",
+    "python.analysis.cacheFolderPath": "/tmp/vscode_cache",
+    "python.pythonPath": "/home/szhang/Github/cdk_practice/first_cdk/hello_world/.venv/bin/python3.10",
+    "python.condaPath": "/home/szhang/Programs/miniconda3/bin/conda",
+    "jupyter.liveShareConnectionTimeout": 5000,
+    "python.sortImports.args": [
+        "-rc",
+        "-sp isort.cfg"
+    ],
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length=99"
+    ],
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    }
+}
